@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.baitaplon">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/thiep"
+        android:label="Shoppe"
+        android:roundIcon="@mipmap/thiep"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Baitaplon"
+        tools:targetApi="31">
+
+        <!-- Màn hình xem chi tiết sản phẩm -->
+        <activity
+            android:name=".XemchitietActivity"
+            android:exported="false" />
+
+        <!-- Màn hình admin -->
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+
+        <!-- Màn hình login (mặc định khởi động) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Home cho người dùng thường -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <!-- Màn hình đăng ký -->
+        <activity
+            android:name=".DangkiActivity"
+            android:exported="false" />
+
+        <!-- ✅ Bổ sung 3 màn quản lý từ các nút -->
+        <activity
+            android:name=".OrderActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".AdminProductActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RevenueActivity"
+            android:exported="false" />
+        <activity android:name=".OrderActivity"
+            android:exported="false" />
+
+
+    </application>
+
+</manifest>

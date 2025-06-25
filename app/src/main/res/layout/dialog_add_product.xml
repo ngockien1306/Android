@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Tên sản phẩm -->
+    <EditText
+        android:id="@+id/edtNewProductName"
+        android:hint="Tên sản phẩm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Giá sản phẩm -->
+    <EditText
+        android:id="@+id/edtNewProductPrice"
+        android:hint="Giá sản phẩm"
+        android:inputType="number"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

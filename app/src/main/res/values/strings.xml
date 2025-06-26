@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">baitapcuoiki1</string>
+    <string name="cart_total">Tổng tiền: 0 đ</string>
+    <string name="checkout">Thanh toán</string>
+</resources>

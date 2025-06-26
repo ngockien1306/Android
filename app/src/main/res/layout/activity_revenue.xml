@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFF8E1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📈 Thống kê"
+        android:textSize="22sp"
+        android:textColor="#FF6F00"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <TextView
+        android:id="@+id/txtTotalOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng đơn: 0"
+        android:textSize="18sp"
+        android:textColor="#388E3C"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/txtTotalRevenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doanh thu: 0 đ"
+        android:textSize="18sp"
+        android:textColor="#D84315" />
+</LinearLayout>
